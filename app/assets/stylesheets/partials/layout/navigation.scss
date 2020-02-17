@@ -1,6 +1,6 @@
 nav {
   .navbar-header {
-    width: 10%;
+    width: 100%;
     button, .navbar-brand {
       transition: opacity 0.15s;
     }
@@ -19,4 +19,8 @@ nav {
   a {
     color: white !important;
   }
+}
+
+.navbar-default {
+  border-bottom: 30px !important;
 }
